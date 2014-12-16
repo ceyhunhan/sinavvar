@@ -1,0 +1,54 @@
+*.checkstyle
+*activemq-data
+*gwt-unitCache
+*.log
+*.tlog
+*.gwt-log
+*coverage.ec
+*~
+
+*/*/*/*/*/WEB-INF/lib
+*/*/*/*/WEB-INF/lib
+*/*/*/*/*/WEB-INF/deploy
+*/*/*/*/WEB-INF/deploy
+*/*/*/*/*/WEB-INF/classes
+*/*/*/*/WEB-INF/classes
+
+#GWT
+modules-*/web-*/war/application
+modules-*/web-*/war/WEB-INF/deploy
+
+# Ignore artifacts
+bin/
+buildSrc/
+build/
+
+# Ignore Eclipse
+.project
+.settings
+version.info
+.classpath
+
+rebel.xml
+
+### Ignore Jetbrains IDEA files
+# all *.iml files
+*.iml
+*s101*
+*.ipr
+*.iws
+# all folders with .idea
+.idea
+# all .pmd files
+*.pmd
+infinitest*
+/out
+
+### Ignore Gradle files
+.gradle
+.gradle/
+gradle-app.setting
+*.metadata*
+.java-version
+atlassian-ide-plugin.xml
+classes/
